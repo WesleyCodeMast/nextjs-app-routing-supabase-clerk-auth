@@ -1,0 +1,1 @@
+# nextjs-app-routing-supabase-clerk-auth
