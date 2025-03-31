@@ -1,0 +1,98 @@
+#rteTools .rte-control-section {
+  margin: 0 auto;
+}
+
+#rteTools .e-code-mirror::before {
+  content: "\e345";
+}
+
+#rteTools .e-html-preview::before {
+  content: "\e350";
+}
+
+#rteTools .CodeMirror-linenumber,
+#rteTools .CodeMirror-gutters {
+  display: none;
+}
+
+.sb-header {
+  z-index: 100 !important;
+}
+
+#rteTools .e-richtexteditor .e-rte-content .e-content {
+  float: left;
+  width: 100%;
+}
+
+#rteTools .content-wrapper {
+  width: auto;
+  margin: 0;
+}
+
+.fabric-dark #rteTools .cm-s-default .cm-tag,
+.bootstrap5-dark #rteTools .cm-s-default .cm-tag,
+.material-dark #rteTools .cm-s-default .cm-tag,
+.tailwind-dark #rteTools .cm-s-default .cm-tag,
+.highcontrast #rteTools .cm-s-default .cm-tag {
+  color: #00ff00;
+}
+
+.fabric-dark #rteTools .cm-s-default .cm-string,
+.bootstrap5-dark #rteTools .cm-s-default .cm-string,
+.material-dark #rteTools .cm-s-default .cm-string,
+.tailwind-dark #rteTools .cm-s-default .cm-string {
+  color: blue;
+}
+
+.highcontrast #rteTools .cm-s-default .cm-string {
+  color: #ffd939;
+}
+
+.fabric-dark #rteTools .cm-s-default .cm-attribute,
+.bootstrap5-dark #rteTools.cm-s-default .cm-attribute,
+.material-dark #rteTools .cm-s-default .cm-attribute,
+.tailwind-dark #rteTools .cm-s-default .cm-attribute,
+.highcontrast #rteTools .cm-s-default .cm-attribute {
+  color: #f00;
+}
+
+.fabric-dark #rteTools .CodeMirror,
+.bootstrap5-dark #rteTools .CodeMirror,
+.material-dark #rteTools .CodeMirror,
+.tailwind-dark #rteTools .CodeMirror {
+  background: #303030;
+}
+
+.highcontrast #rteTools .CodeMirror {
+  background: black;
+}
+
+.sb-content.e-view.hide-header {
+  top: 0 !important;
+}
+
+.sb-header.e-view.hide-header {
+  display: none;
+}
+
+.e-richtexteditor .e-rte-content .e-content[contenteditable="true"] pre {
+  padding: 10px;
+  background: #f4f5f7;
+}
+
+.fabric-dark .e-richtexteditor .e-rte-content .e-content pre,
+.bootstrap5-dark .e-richtexteditor .e-rte-content .e-content pre,
+.material-dark .e-richtexteditor .e-rte-content .e-content pre,
+.tailwind-dark .e-richtexteditor .e-rte-content .e-content pre,
+.highcontrast .e-richtexteditor .e-rte-content .e-content pre {
+  padding: 10px;
+  background: #303030;
+}
+
+.e-richtexteditor .e-rte-content .e-content .CodeMirror-line {
+  background: transparent;
+}
+
+#toolsRTEmirror-view {
+  padding: 0px;
+}
