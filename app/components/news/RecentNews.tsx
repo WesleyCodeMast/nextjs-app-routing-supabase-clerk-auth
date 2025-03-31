@@ -43,7 +43,6 @@ const RecentNews: React.FC<props> = ({
       setLoading(false);
     }
 
-    fetchRecentNews();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [casinoCat, softwareCat, slotCat]);
 
