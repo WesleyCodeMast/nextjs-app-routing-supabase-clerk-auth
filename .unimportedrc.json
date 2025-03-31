@@ -1,0 +1,12 @@
+{
+  "entry": [
+    "next.config.js",
+    "middleware.ts",
+    "postcss.config.js",
+    "tailwind.config.js",
+    "./app/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx}"
+  ],
+  "extensions": [".ts", ".d.ts", ".js", ".tsx", ".jsx"],
+  "ignorePatterns": ["**/node_modules/**", "**/*.d.ts"]
+}
